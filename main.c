@@ -90,8 +90,8 @@ int main(int argc, char *argv[]) {
     char lookup_table[256] = {0};
     calculate_lookup_table(ordered_set, lookup_table);
 
-    // (path, size of the path string for any frame images excluding the numbers at the end, extension, minimum number length at the end, first frame, last frame, width, height, native fps)
-    frame_folder folder = {"frame_folders/ba30/frame", 28, ".png", 3, 1, 6572, 288, 216, 30};
+    // (path to the images without the number, size of the path string for any frame images excluding the numbers at the end, extension, minimum number length at the end, first frame, last frame, width, height, native fps)
+    frame_folder folder = {"example_folder/frame", 24, ".png", 3, 1, 6572, 288, 216, 30};
     
     play_folder(folder, lookup_table, NULL, -1, 0);
     return 0;

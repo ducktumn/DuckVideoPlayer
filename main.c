@@ -644,7 +644,7 @@ int get_size(int number) {
 // Tries to play a folder full of frames in a spesific framerate
 // - Mode parameter is the same as the print_image function
 // - Expects a frame_folder object that is initialized correctly
-// - Plays frames from folderx/frame000.png to folderx/frame1111.png in 24 fps
+// - Plays frames from folderx/frame000.png to folderx/frame1111.png 
 // - Saves a frametime.csv file for framatime analyzing if needed
 // - If framerate is NULL then the original framerate from the folder will be used
 // - Assumes:

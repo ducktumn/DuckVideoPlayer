@@ -1,0 +1,3 @@
+Example Command to Extract Frames
+ffmpeg -i input_video.mp4 -vf "fps=30,scale=iw*0.8:ih*0.8" output_frames/frame_%04d.png
+
